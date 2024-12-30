@@ -11,8 +11,8 @@ Este proyecto es un frontend desarrollado en React para interactuar con una API 
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
-   cd <NOMBRE_DEL_REPOSITORIO>
+   git clone https://github.com/Cristian18cg/Prueba-front.git
+   cd prueba-fron
 
 2. **Instalar dependendencias:**
     npm install
