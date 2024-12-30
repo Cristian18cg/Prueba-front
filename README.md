@@ -36,7 +36,7 @@ La estructura principal del proyecto es la siguiente:
 
 src/
 ├── components/       # Componentes y paginas de la app
-├── context/          # Contextos globales 
+├── context/          # Contextos, se manejan las peticiones 
 ├── hooks/            # Custom Hooks 
 ├── img/              # Recursos estáticos como imágenes y estilos
 ├── App.js            # Componente principal

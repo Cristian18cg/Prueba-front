@@ -17,7 +17,7 @@ const LoginProvider = ({ children }) => {
   const [loadingRegistro, setloadingRegistro] = useState(false);
   const [loadingLogin, setloadingLogin] = useState(false);
   const [user, setUser] = useState(null);
-
+//mensaje exito
   const showSuccess = (mensaje) => {
     const Toast = Swal.mixin({
       toast: true,
@@ -38,6 +38,7 @@ const LoginProvider = ({ children }) => {
       buttonsStyling: false,
     });
   };
+  //mensaje error
   const showError = (error) => {
     const Toast = Swal.mixin({
       toast: true,
@@ -158,15 +159,8 @@ const LoginProvider = ({ children }) => {
           title: "Contraseña incorrecta",
         });
       } else {
-        console.log(dataLogin);
-        /*       setAdmin(dataLogin.is_superuser);
-         */
-        /* Nombre de usuarios */
-        /*     setUsuario(
-          `${dataLogin?.first_name} ${dataLogin?.last_name}`.trim()
-            ? `${dataLogin.first_name} ${dataLogin.last_name}`
-            : "usuario"
-        ); */
+
+    
         setLoggedIn(true);
         setloadingLogin(false);
         /* tokens */
