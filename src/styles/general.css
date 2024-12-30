@@ -1,0 +1,66 @@
+.swal2-container,
+.swal2-toast-shown {
+  z-index: 50000 !important;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+  max-height: 7px;
+  /* ancho de toda la barra de desplazamiento */
+}
+
+body::-webkit-scrollbar-track {
+  background: #33333300;
+  /* color del área de seguimiento */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #49494962;
+  /* color del pulgar de desplazamiento */
+  border-radius: 20px;
+  /* redondez del pulgar de desplazamiento */
+  border: 1px solid #9999991e;
+  /* crea un borde alrededor del pulgar de desplazamiento */
+}
+
+div::-webkit-scrollbar {
+  width: 7px;
+  max-height: 7px;
+  /* ancho de toda la barra de desplazamiento */
+}
+
+div::-webkit-scrollbar-track {
+  background: #33333300;
+  /* color del área de seguimiento */
+}
+
+div::-webkit-scrollbar-thumb {
+  background-color: #49494962;
+  /* color del pulgar de desplazamiento */
+  border-radius: 20px;
+  /* redondez del pulgar de desplazamiento */
+  border: 1px solid #9999991e;
+  /* crea un borde alrededor del pulgar de desplazamiento */
+}
+
+html {
+  font-size: 14px;
+}
+
+.contraseña-input .p-password-input {
+  width: 15.5rem; /* Tamaño por defecto */
+}
+
+/* Para pantallas más pequeñas (ejemplo: móviles) */
+@media (max-width: 768px) {
+  .contraseña-input .p-password-input {
+    width: 21rem; /* Ancho específico para móviles */
+  }
+}
+
+/* Para pantallas grandes (ejemplo: tablets y desktop grandes) */
+@media (max-width: 1024px) {
+  .contraseña-input .p-password-input {
+    width: 20rem; /* Ancho específico para pantallas grandes */
+  }
+}

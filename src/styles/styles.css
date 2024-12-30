@@ -1,0 +1,17 @@
+
+@layer tailwind-base, primereact, tailwind-utilities;
+@import 'primereact/resources/themes/lara-light-blue/theme.css'; /* ACa podemos elegir el tema de prime react */
+
+@layer tailwind-base {
+  @tailwind base;
+}
+
+@layer tailwind-utilities {
+  @tailwind components;
+  @tailwind utilities;
+}
+
+@import 'primereact/resources/primereact.min.css';
+
+@import './general.css';
+
